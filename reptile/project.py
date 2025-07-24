@@ -9,7 +9,7 @@ res = requests.get(url, headers = headers)
 soup = BeautifulSoup(res.text, 'html.parser')
 # print(soup.prettify)
 
-
+# 123
 # .csv 檔案都是 a 標籤
 # 找出所有 a 標籤
 
